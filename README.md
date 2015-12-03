@@ -9,7 +9,7 @@ If you have a memory leak in your code, finding and plugging it can be a hercule
 
 Puma worker killer can only function if you have enabled cluster mode or hybrid mode (threads + worker cluster). If you are only using threads (and not workers) then puma worker killer cannot help keep your memory in control.
 
-BTW restarting your processes to controll memory is like putting a bandaid on a gunshot wound, try figuring out the reason you're seeing so much memory bloat [derailed benchmarks](https://github.com/schneems/derailed_benchmarks) can help.
+BTW restarting your processes to controll memory is like putting a bandaid on a gunshot wound. Try figuring out the reason you're seeing so much memory bloat. [Derailed benchmarks](https://github.com/schneems/derailed_benchmarks) can help.
 
 
 ## Install
